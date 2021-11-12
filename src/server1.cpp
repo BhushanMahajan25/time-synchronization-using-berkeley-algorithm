@@ -29,6 +29,7 @@ void handleReadWriteConnection(int*);
 void* threadFunction(void*);
 int generateRandomClockNumber();
 
+//generate randome number for local clock value
 int generateRandomClockNumber(){
 	return (rand() % 10) * getpid();
 }

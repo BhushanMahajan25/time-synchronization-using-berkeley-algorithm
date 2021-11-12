@@ -6,6 +6,7 @@ using namespace std::chrono;
 
 int localClock = 0;
 
+//generate randome number for local clock value
 int generateRandomClockNumber(){
 	return (rand() % 10) * getpid();
 }
